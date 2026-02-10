@@ -1,3 +1,26 @@
+.header{
+    padding: 80px;
+    text-align: center;
+    background: red;
+    color: white;
+}
+.header h1{
+    font-size: 100px;
+}
+
+.nav_link{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+
+}
+.nav_link:hover{
+    background: skyblue;
+    color: black;
+    border-radius: 20px;
+}
+
+
 :root{
     --bg:#020012;
     --bg2:#0f172a;
@@ -6,7 +29,6 @@
     --text:  #e5e7eb;
     --text2: #a3b0c2;
 }
-
 
 body{
     margin: 0px;
@@ -30,6 +52,24 @@ body{
     justify-content: space-between;
     align-items: center;
 
+}
+
+.gallery{
+    margin: 25px;
+    border: 1px solid black;
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+
+.gallery:hover{
+    border: 3px solid rgb(116, 198, 236);
+    
+    
+}
+.gallery img{
+    width: 100%;
+    height: auto;
 }
 
 
