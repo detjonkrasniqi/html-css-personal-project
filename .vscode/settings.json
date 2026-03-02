@@ -1,3 +1,76 @@
 {
     "liveServer.settings.port": 5501
-}
+}    
+
+
+
+
+<section id="fitness">
+        <div class="gallery">
+        <a target="_blank" href="foto1.jpg">
+        <img src="foto1.jpg" alt="foto1" width="800" height="400"></a>
+        <div class="desc">STUDIO</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="foto2.jpg">
+        <img src="foto2.jpg" alt="foto2" width="800" height="400"></a>
+        <div class="desc">WHEIGHTS</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="foto3.jpg">
+        <img src="foto3.jpg" alt="foto3" width="800" height="400"></a>
+        <div class="desc">YOGA</div>
+    </div>
+
+    </section>
+
+
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="topbar">
+        <p>YOGA</p>
+        
+         <header>
+     <div id="header-container">
+       
+
+    <nav>
+        <ul>
+        <a href="index.html" class="nav_link">home</a>
+        <a href="aboutus.html" class="nav_link">about us</a>
+        <a href="contacts" class="nav_link">contacts</a>
+
+        </ul>
+     </nav>
+    </div>
+         </header>
+
+     <section class="contact-section">
+          <h2>Contact Us</h2>
+          <div class="contact-content">
+            <img src="image 3.avif" alt="Contact">
+
+            <p>
+                Yoga është një praktikë e lashte me origjine nga india qe kombinon
+                levizjet fizike, fryemarrjen dhe perqendrimin mendor. Ushtrimet e joges
+                ndihmojne ne rritjen e fleksibilitetit,forcimin e muskujve dhe permiresimin
+                e qendrimit te trupit. Perveq perfitimeve fizike, joga ndihmon edhe ne uljen
+                e stresit, qetesimin e mendjes dhe permiresimin e mireqenies se pergjithshme.
+            </p>
+          </div>
+     </section>
+
+
+
+    
+</body>
+</html>
