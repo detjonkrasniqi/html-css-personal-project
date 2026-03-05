@@ -285,4 +285,78 @@ section {
 }
 
 
+.faq {
+    margin-top: 50px;
+    padding: 40px;
+    text-align: center;
+}
 
+.faq-box {
+    background-color: #2a2a40;
+    margin: 15px auto;
+    padding: 15px;
+    width: 60%;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.faq-box:hover {
+    transform: scale(1.03);
+}
+
+
+.plan-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.plan {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.plan:hover {
+    transform: scale(1.05);
+}
+
+
+.services {
+    text-align: center; 
+    padding: 50px;
+}
+
+.service-box {
+    display: flex; 
+    justify-content: center;
+    gap: 30px;
+}
+
+.service {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    transition: 0.3s; 
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+
+.trainer-box {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.trainer img {
+    width: 200px;
+    border-radius: 10px;
+}
